@@ -1,0 +1,2676 @@
+[1562786139.329][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--disable-notifications", "--disable-infobars", "--start-maximized" ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--disable-notifications", "--disable-infobars", "--start-maximized" ],
+         "extensions": [  ]
+      }
+   }
+}
+[1562786139.334][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1562786139.337][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1562786139.355][INFO]: Cannot switch to US keyboard layout - some keys may be interpreted incorrectly
+[1562786139.355][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-infobars --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\Zarina\AppData\Local\Temp\scoped_dir11540_18573\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Zarina\AppData\Local\Temp\scoped_dir11540_1639" data:,
+[1562786140.856][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1562786142.454][INFO]: RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab)",
+      "userDataDir": "C:\\Users\\Zarina\\AppData\\Local\\Temp\\scoped_dir11540_1639"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "setWindowRect": true,
+   "~~~": "..."
+}
+[1562786142.599][INFO]: COMMAND SetTimeout {
+   "ms": 20000,
+   "type": "implicit"
+}
+[1562786142.599][INFO]: RESPONSE SetTimeout
+[1562786142.609][INFO]: COMMAND Navigate {
+   "url": "http://register.rediff.com/register/register.php?FormName=user_details"
+}
+[1562786142.609][INFO]: Waiting for pending navigations...
+[1562786142.623][INFO]: Done waiting for pending navigations. Status: ok
+[1562786143.294][INFO]: Waiting for pending navigations...
+[1562786144.372][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.372][INFO]: RESPONSE Navigate
+[1562786144.434][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "country"
+}
+[1562786144.434][INFO]: Waiting for pending navigations...
+[1562786144.435][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.458][INFO]: Waiting for pending navigations...
+[1562786144.459][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.460][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7646827861589167-1"
+}
+[1562786144.465][INFO]: COMMAND GetElementTagName {
+   "id": "0.7646827861589167-1"
+}
+[1562786144.465][INFO]: Waiting for pending navigations...
+[1562786144.467][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.473][INFO]: Waiting for pending navigations...
+[1562786144.474][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.474][INFO]: RESPONSE GetElementTagName "select"
+[1562786144.480][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "country"
+}
+[1562786144.480][INFO]: Waiting for pending navigations...
+[1562786144.481][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.493][INFO]: Waiting for pending navigations...
+[1562786144.493][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.494][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7646827861589167-1"
+}
+[1562786144.496][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-1",
+   "name": "multiple"
+}
+[1562786144.496][INFO]: Waiting for pending navigations...
+[1562786144.497][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.502][INFO]: Waiting for pending navigations...
+[1562786144.503][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.503][INFO]: RESPONSE GetElementAttribute null
+[1562786144.508][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "country"
+}
+[1562786144.508][INFO]: Waiting for pending navigations...
+[1562786144.509][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.518][INFO]: Waiting for pending navigations...
+[1562786144.519][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.519][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7646827861589167-1"
+}
+[1562786144.524][INFO]: COMMAND FindChildElements {
+   "id": "0.7646827861589167-1",
+   "using": "tag name",
+   "value": "option"
+}
+[1562786144.524][INFO]: Waiting for pending navigations...
+[1562786144.525][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.575][INFO]: Waiting for pending navigations...
+[1562786144.577][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.577][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.7646827861589167-2"
+}, {
+   "ELEMENT": "0.7646827861589167-3"
+}, {
+   "ELEMENT": "0.7646827861589167-4"
+}, {
+   "ELEMENT": "0.7646827861589167-5"
+}, {
+   "ELEMENT": "0.7646827861589167-6"
+}, {
+   "ELEMENT": "0.7646827861589167-7"
+}, {
+   "ELEMENT": "0.7646827861589167-8"
+}, {
+   "ELEMENT": "0.7646827861589167-9"
+}, {
+   "ELEMENT": "0.7646827861589167-10"
+}, {
+   "ELEMENT": "0.7646827861589167-11"
+}, {
+   "ELEMENT": "0.7646827861589167-12"
+}, {
+   "ELEMENT": "0.7646827861589167-13"
+}, {
+   "ELEMENT": "0.7646827861589167-14"
+}, {
+   "ELEMENT": "0.7646827861589167-15"
+}, {
+   "ELEMENT": "0.7646827861589167-16"
+}, {
+   "ELEMENT": "0.7646827861589167-17"
+}, {
+   "ELEMENT": "0.7646827861589167-18"
+}, {
+   "ELEMENT": "0.7646827861589167-19"
+}, {
+   "ELEMENT": "0.7646827861589167-20"
+}, "..." ]
+[1562786144.623][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-2",
+   "name": "index"
+}
+[1562786144.623][INFO]: Waiting for pending navigations...
+[1562786144.624][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.632][INFO]: Waiting for pending navigations...
+[1562786144.633][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.633][INFO]: RESPONSE GetElementAttribute "0"
+[1562786144.636][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-3",
+   "name": "index"
+}
+[1562786144.636][INFO]: Waiting for pending navigations...
+[1562786144.637][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.642][INFO]: Waiting for pending navigations...
+[1562786144.643][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.643][INFO]: RESPONSE GetElementAttribute "1"
+[1562786144.646][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-4",
+   "name": "index"
+}
+[1562786144.646][INFO]: Waiting for pending navigations...
+[1562786144.647][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.652][INFO]: Waiting for pending navigations...
+[1562786144.653][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.653][INFO]: RESPONSE GetElementAttribute "2"
+[1562786144.656][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-5",
+   "name": "index"
+}
+[1562786144.656][INFO]: Waiting for pending navigations...
+[1562786144.657][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.662][INFO]: Waiting for pending navigations...
+[1562786144.663][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.663][INFO]: RESPONSE GetElementAttribute "3"
+[1562786144.666][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-6",
+   "name": "index"
+}
+[1562786144.666][INFO]: Waiting for pending navigations...
+[1562786144.667][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.672][INFO]: Waiting for pending navigations...
+[1562786144.673][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.673][INFO]: RESPONSE GetElementAttribute "4"
+[1562786144.676][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-7",
+   "name": "index"
+}
+[1562786144.676][INFO]: Waiting for pending navigations...
+[1562786144.677][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.682][INFO]: Waiting for pending navigations...
+[1562786144.683][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.683][INFO]: RESPONSE GetElementAttribute "5"
+[1562786144.685][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-8",
+   "name": "index"
+}
+[1562786144.685][INFO]: Waiting for pending navigations...
+[1562786144.686][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.692][INFO]: Waiting for pending navigations...
+[1562786144.692][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.692][INFO]: RESPONSE GetElementAttribute "6"
+[1562786144.695][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-9",
+   "name": "index"
+}
+[1562786144.695][INFO]: Waiting for pending navigations...
+[1562786144.696][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.705][INFO]: Waiting for pending navigations...
+[1562786144.706][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.706][INFO]: RESPONSE GetElementAttribute "7"
+[1562786144.719][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-10",
+   "name": "index"
+}
+[1562786144.719][INFO]: Waiting for pending navigations...
+[1562786144.720][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.725][INFO]: Waiting for pending navigations...
+[1562786144.726][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.726][INFO]: RESPONSE GetElementAttribute "8"
+[1562786144.729][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-11",
+   "name": "index"
+}
+[1562786144.729][INFO]: Waiting for pending navigations...
+[1562786144.730][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.735][INFO]: Waiting for pending navigations...
+[1562786144.736][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.736][INFO]: RESPONSE GetElementAttribute "9"
+[1562786144.740][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-12",
+   "name": "index"
+}
+[1562786144.740][INFO]: Waiting for pending navigations...
+[1562786144.741][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.746][INFO]: Waiting for pending navigations...
+[1562786144.747][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.747][INFO]: RESPONSE GetElementAttribute "10"
+[1562786144.749][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-13",
+   "name": "index"
+}
+[1562786144.749][INFO]: Waiting for pending navigations...
+[1562786144.750][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.755][INFO]: Waiting for pending navigations...
+[1562786144.756][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.756][INFO]: RESPONSE GetElementAttribute "11"
+[1562786144.758][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-14",
+   "name": "index"
+}
+[1562786144.758][INFO]: Waiting for pending navigations...
+[1562786144.759][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.765][INFO]: Waiting for pending navigations...
+[1562786144.766][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.766][INFO]: RESPONSE GetElementAttribute "12"
+[1562786144.768][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-15",
+   "name": "index"
+}
+[1562786144.768][INFO]: Waiting for pending navigations...
+[1562786144.769][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.774][INFO]: Waiting for pending navigations...
+[1562786144.775][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.775][INFO]: RESPONSE GetElementAttribute "13"
+[1562786144.777][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-16",
+   "name": "index"
+}
+[1562786144.777][INFO]: Waiting for pending navigations...
+[1562786144.778][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.783][INFO]: Waiting for pending navigations...
+[1562786144.784][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.784][INFO]: RESPONSE GetElementAttribute "14"
+[1562786144.787][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-17",
+   "name": "index"
+}
+[1562786144.787][INFO]: Waiting for pending navigations...
+[1562786144.788][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.795][INFO]: Waiting for pending navigations...
+[1562786144.796][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.796][INFO]: RESPONSE GetElementAttribute "15"
+[1562786144.798][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-18",
+   "name": "index"
+}
+[1562786144.798][INFO]: Waiting for pending navigations...
+[1562786144.799][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.804][INFO]: Waiting for pending navigations...
+[1562786144.805][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.805][INFO]: RESPONSE GetElementAttribute "16"
+[1562786144.807][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-19",
+   "name": "index"
+}
+[1562786144.807][INFO]: Waiting for pending navigations...
+[1562786144.808][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.813][INFO]: Waiting for pending navigations...
+[1562786144.814][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.814][INFO]: RESPONSE GetElementAttribute "17"
+[1562786144.816][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-20",
+   "name": "index"
+}
+[1562786144.816][INFO]: Waiting for pending navigations...
+[1562786144.817][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.822][INFO]: Waiting for pending navigations...
+[1562786144.823][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.823][INFO]: RESPONSE GetElementAttribute "18"
+[1562786144.825][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-21",
+   "name": "index"
+}
+[1562786144.826][INFO]: Waiting for pending navigations...
+[1562786144.827][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.834][INFO]: Waiting for pending navigations...
+[1562786144.835][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.835][INFO]: RESPONSE GetElementAttribute "19"
+[1562786144.838][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-22",
+   "name": "index"
+}
+[1562786144.838][INFO]: Waiting for pending navigations...
+[1562786144.840][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.845][INFO]: Waiting for pending navigations...
+[1562786144.845][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.845][INFO]: RESPONSE GetElementAttribute "20"
+[1562786144.848][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-23",
+   "name": "index"
+}
+[1562786144.848][INFO]: Waiting for pending navigations...
+[1562786144.849][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.854][INFO]: Waiting for pending navigations...
+[1562786144.855][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.855][INFO]: RESPONSE GetElementAttribute "21"
+[1562786144.857][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-24",
+   "name": "index"
+}
+[1562786144.857][INFO]: Waiting for pending navigations...
+[1562786144.858][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.862][INFO]: Waiting for pending navigations...
+[1562786144.863][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.863][INFO]: RESPONSE GetElementAttribute "22"
+[1562786144.866][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-25",
+   "name": "index"
+}
+[1562786144.866][INFO]: Waiting for pending navigations...
+[1562786144.867][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.872][INFO]: Waiting for pending navigations...
+[1562786144.873][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.873][INFO]: RESPONSE GetElementAttribute "23"
+[1562786144.875][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-26",
+   "name": "index"
+}
+[1562786144.875][INFO]: Waiting for pending navigations...
+[1562786144.876][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.881][INFO]: Waiting for pending navigations...
+[1562786144.881][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.882][INFO]: RESPONSE GetElementAttribute "24"
+[1562786144.884][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-27",
+   "name": "index"
+}
+[1562786144.884][INFO]: Waiting for pending navigations...
+[1562786144.885][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.892][INFO]: Waiting for pending navigations...
+[1562786144.892][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.893][INFO]: RESPONSE GetElementAttribute "25"
+[1562786144.895][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-28",
+   "name": "index"
+}
+[1562786144.895][INFO]: Waiting for pending navigations...
+[1562786144.899][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.906][INFO]: Waiting for pending navigations...
+[1562786144.907][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.907][INFO]: RESPONSE GetElementAttribute "26"
+[1562786144.909][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-29",
+   "name": "index"
+}
+[1562786144.909][INFO]: Waiting for pending navigations...
+[1562786144.910][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.915][INFO]: Waiting for pending navigations...
+[1562786144.916][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.916][INFO]: RESPONSE GetElementAttribute "27"
+[1562786144.918][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-30",
+   "name": "index"
+}
+[1562786144.918][INFO]: Waiting for pending navigations...
+[1562786144.919][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.924][INFO]: Waiting for pending navigations...
+[1562786144.925][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.925][INFO]: RESPONSE GetElementAttribute "28"
+[1562786144.927][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-31",
+   "name": "index"
+}
+[1562786144.927][INFO]: Waiting for pending navigations...
+[1562786144.928][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.933][INFO]: Waiting for pending navigations...
+[1562786144.934][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.934][INFO]: RESPONSE GetElementAttribute "29"
+[1562786144.936][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-32",
+   "name": "index"
+}
+[1562786144.936][INFO]: Waiting for pending navigations...
+[1562786144.937][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.942][INFO]: Waiting for pending navigations...
+[1562786144.943][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.943][INFO]: RESPONSE GetElementAttribute "30"
+[1562786144.946][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-33",
+   "name": "index"
+}
+[1562786144.946][INFO]: Waiting for pending navigations...
+[1562786144.946][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.951][INFO]: Waiting for pending navigations...
+[1562786144.952][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.952][INFO]: RESPONSE GetElementAttribute "31"
+[1562786144.955][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-34",
+   "name": "index"
+}
+[1562786144.955][INFO]: Waiting for pending navigations...
+[1562786144.956][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.961][INFO]: Waiting for pending navigations...
+[1562786144.962][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.962][INFO]: RESPONSE GetElementAttribute "32"
+[1562786144.964][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-35",
+   "name": "index"
+}
+[1562786144.964][INFO]: Waiting for pending navigations...
+[1562786144.965][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.970][INFO]: Waiting for pending navigations...
+[1562786144.971][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.971][INFO]: RESPONSE GetElementAttribute "33"
+[1562786144.973][INFO]: COMMAND GetElementAttribute {
+   "id": "0.7646827861589167-36",
+   "name": "index"
+}
+[1562786144.973][INFO]: Waiting for pending navigations...
+[1562786144.974][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.979][INFO]: Waiting for pending navigations...
+[1562786144.980][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.980][INFO]: RESPONSE GetElementAttribute "34"
+[1562786144.982][INFO]: COMMAND IsElementSelected {
+   "id": "0.7646827861589167-36"
+}
+[1562786144.982][INFO]: Waiting for pending navigations...
+[1562786144.983][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.996][INFO]: Waiting for pending navigations...
+[1562786144.997][INFO]: Done waiting for pending navigations. Status: ok
+[1562786144.997][INFO]: RESPONSE IsElementSelected false
+[1562786145.004][INFO]: COMMAND ClickElement {
+   "id": "0.7646827861589167-36"
+}
+[1562786145.004][INFO]: Waiting for pending navigations...
+[1562786145.005][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.056][INFO]: Waiting for pending navigations...
+[1562786145.060][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.060][INFO]: RESPONSE ClickElement
+[1562786145.068][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "country"
+}
+[1562786145.068][INFO]: Waiting for pending navigations...
+[1562786145.069][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.080][INFO]: Waiting for pending navigations...
+[1562786145.080][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.081][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7646827861589167-1"
+}
+[1562786145.084][INFO]: COMMAND FindChildElements {
+   "id": "0.7646827861589167-1",
+   "using": "xpath",
+   "value": ".//option[normalize-space(.) = \"India\"]"
+}
+[1562786145.084][INFO]: Waiting for pending navigations...
+[1562786145.085][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.102][INFO]: Waiting for pending navigations...
+[1562786145.103][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.103][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.7646827861589167-2"
+} ]
+[1562786145.106][INFO]: COMMAND IsElementSelected {
+   "id": "0.7646827861589167-2"
+}
+[1562786145.106][INFO]: Waiting for pending navigations...
+[1562786145.107][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.120][INFO]: Waiting for pending navigations...
+[1562786145.121][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.121][INFO]: RESPONSE IsElementSelected false
+[1562786145.128][INFO]: COMMAND ClickElement {
+   "id": "0.7646827861589167-2"
+}
+[1562786145.128][INFO]: Waiting for pending navigations...
+[1562786145.128][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.172][INFO]: Waiting for pending navigations...
+[1562786145.175][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.175][INFO]: RESPONSE ClickElement
+[1562786145.184][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "country"
+}
+[1562786145.184][INFO]: Waiting for pending navigations...
+[1562786145.184][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.195][INFO]: Waiting for pending navigations...
+[1562786145.196][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.196][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7646827861589167-1"
+}
+[1562786145.200][INFO]: COMMAND FindChildElements {
+   "id": "0.7646827861589167-1",
+   "using": "xpath",
+   "value": ".//option[@value = \"5\"]"
+}
+[1562786145.200][INFO]: Waiting for pending navigations...
+[1562786145.201][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.218][INFO]: Waiting for pending navigations...
+[1562786145.219][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.219][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.7646827861589167-5"
+} ]
+[1562786145.221][INFO]: COMMAND IsElementSelected {
+   "id": "0.7646827861589167-5"
+}
+[1562786145.221][INFO]: Waiting for pending navigations...
+[1562786145.222][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.234][INFO]: Waiting for pending navigations...
+[1562786145.235][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.235][INFO]: RESPONSE IsElementSelected false
+[1562786145.240][INFO]: COMMAND ClickElement {
+   "id": "0.7646827861589167-5"
+}
+[1562786145.240][INFO]: Waiting for pending navigations...
+[1562786145.240][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.289][INFO]: Waiting for pending navigations...
+[1562786145.292][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.292][INFO]: RESPONSE ClickElement
+[1562786145.300][INFO]: COMMAND FindElement {
+   "using": "id",
+   "value": "country"
+}
+[1562786145.300][INFO]: Waiting for pending navigations...
+[1562786145.300][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.312][INFO]: Waiting for pending navigations...
+[1562786145.313][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.313][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.7646827861589167-1"
+}
+[1562786145.320][INFO]: COMMAND FindChildElements {
+   "id": "0.7646827861589167-1",
+   "using": "tag name",
+   "value": "option"
+}
+[1562786145.320][INFO]: Waiting for pending navigations...
+[1562786145.321][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.353][INFO]: Waiting for pending navigations...
+[1562786145.354][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.354][INFO]: RESPONSE FindChildElements [ {
+   "ELEMENT": "0.7646827861589167-2"
+}, {
+   "ELEMENT": "0.7646827861589167-3"
+}, {
+   "ELEMENT": "0.7646827861589167-4"
+}, {
+   "ELEMENT": "0.7646827861589167-5"
+}, {
+   "ELEMENT": "0.7646827861589167-6"
+}, {
+   "ELEMENT": "0.7646827861589167-7"
+}, {
+   "ELEMENT": "0.7646827861589167-8"
+}, {
+   "ELEMENT": "0.7646827861589167-9"
+}, {
+   "ELEMENT": "0.7646827861589167-10"
+}, {
+   "ELEMENT": "0.7646827861589167-11"
+}, {
+   "ELEMENT": "0.7646827861589167-12"
+}, {
+   "ELEMENT": "0.7646827861589167-13"
+}, {
+   "ELEMENT": "0.7646827861589167-14"
+}, {
+   "ELEMENT": "0.7646827861589167-15"
+}, {
+   "ELEMENT": "0.7646827861589167-16"
+}, {
+   "ELEMENT": "0.7646827861589167-17"
+}, {
+   "ELEMENT": "0.7646827861589167-18"
+}, {
+   "ELEMENT": "0.7646827861589167-19"
+}, {
+   "ELEMENT": "0.7646827861589167-20"
+}, "..." ]
+[1562786145.370][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-2"
+}
+[1562786145.370][INFO]: Waiting for pending navigations...
+[1562786145.371][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.398][INFO]: Waiting for pending navigations...
+[1562786145.399][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.400][INFO]: RESPONSE GetElementText "India"
+[1562786145.402][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-3"
+}
+[1562786145.403][INFO]: Waiting for pending navigations...
+[1562786145.404][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.432][INFO]: Waiting for pending navigations...
+[1562786145.433][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.433][INFO]: RESPONSE GetElementText "American Samoa"
+[1562786145.436][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-4"
+}
+[1562786145.436][INFO]: Waiting for pending navigations...
+[1562786145.437][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.465][INFO]: Waiting for pending navigations...
+[1562786145.466][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.466][INFO]: RESPONSE GetElementText "Andorra"
+[1562786145.468][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-5"
+}
+[1562786145.468][INFO]: Waiting for pending navigations...
+[1562786145.469][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.489][INFO]: Waiting for pending navigations...
+[1562786145.490][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.490][INFO]: RESPONSE GetElementText "Angola"
+[1562786145.491][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-6"
+}
+[1562786145.492][INFO]: Waiting for pending navigations...
+[1562786145.492][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.517][INFO]: Waiting for pending navigations...
+[1562786145.519][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.519][INFO]: RESPONSE GetElementText "Anguilla"
+[1562786145.522][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-7"
+}
+[1562786145.522][INFO]: Waiting for pending navigations...
+[1562786145.523][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.544][INFO]: Waiting for pending navigations...
+[1562786145.545][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.545][INFO]: RESPONSE GetElementText "Antarctica"
+[1562786145.547][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-8"
+}
+[1562786145.548][INFO]: Waiting for pending navigations...
+[1562786145.549][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.571][INFO]: Waiting for pending navigations...
+[1562786145.572][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.572][INFO]: RESPONSE GetElementText "Antigua And Barbuda"
+[1562786145.575][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-9"
+}
+[1562786145.575][INFO]: Waiting for pending navigations...
+[1562786145.576][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.600][INFO]: Waiting for pending navigations...
+[1562786145.601][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.601][INFO]: RESPONSE GetElementText "Argentina"
+[1562786145.603][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-10"
+}
+[1562786145.604][INFO]: Waiting for pending navigations...
+[1562786145.605][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.629][INFO]: Waiting for pending navigations...
+[1562786145.630][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.630][INFO]: RESPONSE GetElementText "Armenia"
+[1562786145.632][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-11"
+}
+[1562786145.632][INFO]: Waiting for pending navigations...
+[1562786145.633][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.657][INFO]: Waiting for pending navigations...
+[1562786145.658][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.658][INFO]: RESPONSE GetElementText "Aruba"
+[1562786145.660][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-12"
+}
+[1562786145.660][INFO]: Waiting for pending navigations...
+[1562786145.661][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.681][INFO]: Waiting for pending navigations...
+[1562786145.683][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.683][INFO]: RESPONSE GetElementText "Australia"
+[1562786145.687][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-13"
+}
+[1562786145.687][INFO]: Waiting for pending navigations...
+[1562786145.689][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.712][INFO]: Waiting for pending navigations...
+[1562786145.713][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.713][INFO]: RESPONSE GetElementText "Austria"
+[1562786145.715][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-14"
+}
+[1562786145.715][INFO]: Waiting for pending navigations...
+[1562786145.716][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.749][INFO]: Waiting for pending navigations...
+[1562786145.750][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.750][INFO]: RESPONSE GetElementText "Azerbaijan"
+[1562786145.752][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-15"
+}
+[1562786145.752][INFO]: Waiting for pending navigations...
+[1562786145.754][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.777][INFO]: Waiting for pending navigations...
+[1562786145.778][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.778][INFO]: RESPONSE GetElementText "Bahamas "
+[1562786145.781][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-16"
+}
+[1562786145.781][INFO]: Waiting for pending navigations...
+[1562786145.782][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.803][INFO]: Waiting for pending navigations...
+[1562786145.805][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.805][INFO]: RESPONSE GetElementText "Bahrain"
+[1562786145.808][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-17"
+}
+[1562786145.808][INFO]: Waiting for pending navigations...
+[1562786145.809][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.830][INFO]: Waiting for pending navigations...
+[1562786145.833][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.833][INFO]: RESPONSE GetElementText "Bangladesh"
+[1562786145.835][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-18"
+}
+[1562786145.835][INFO]: Waiting for pending navigations...
+[1562786145.836][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.859][INFO]: Waiting for pending navigations...
+[1562786145.860][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.860][INFO]: RESPONSE GetElementText "Barbados"
+[1562786145.863][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-19"
+}
+[1562786145.863][INFO]: Waiting for pending navigations...
+[1562786145.864][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.884][INFO]: Waiting for pending navigations...
+[1562786145.885][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.885][INFO]: RESPONSE GetElementText "Belarus"
+[1562786145.887][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-20"
+}
+[1562786145.887][INFO]: Waiting for pending navigations...
+[1562786145.888][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.910][INFO]: Waiting for pending navigations...
+[1562786145.911][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.911][INFO]: RESPONSE GetElementText "Belgium"
+[1562786145.913][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-21"
+}
+[1562786145.914][INFO]: Waiting for pending navigations...
+[1562786145.914][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.940][INFO]: Waiting for pending navigations...
+[1562786145.941][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.941][INFO]: RESPONSE GetElementText "Belize"
+[1562786145.943][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-22"
+}
+[1562786145.943][INFO]: Waiting for pending navigations...
+[1562786145.944][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.972][INFO]: Waiting for pending navigations...
+[1562786145.975][INFO]: Done waiting for pending navigations. Status: ok
+[1562786145.975][INFO]: RESPONSE GetElementText "Benin"
+[1562786145.978][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-23"
+}
+[1562786145.978][INFO]: Waiting for pending navigations...
+[1562786145.979][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.004][INFO]: Waiting for pending navigations...
+[1562786146.005][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.005][INFO]: RESPONSE GetElementText "Bermuda"
+[1562786146.008][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-24"
+}
+[1562786146.008][INFO]: Waiting for pending navigations...
+[1562786146.009][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.030][INFO]: Waiting for pending navigations...
+[1562786146.031][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.031][INFO]: RESPONSE GetElementText "Bhutan"
+[1562786146.034][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-25"
+}
+[1562786146.034][INFO]: Waiting for pending navigations...
+[1562786146.035][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.054][INFO]: Waiting for pending navigations...
+[1562786146.055][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.055][INFO]: RESPONSE GetElementText "Bolivia"
+[1562786146.058][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-26"
+}
+[1562786146.058][INFO]: Waiting for pending navigations...
+[1562786146.059][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.088][INFO]: Waiting for pending navigations...
+[1562786146.089][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.089][INFO]: RESPONSE GetElementText "Bosnia and Herzegovina"
+[1562786146.091][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-27"
+}
+[1562786146.092][INFO]: Waiting for pending navigations...
+[1562786146.093][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.119][INFO]: Waiting for pending navigations...
+[1562786146.120][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.120][INFO]: RESPONSE GetElementText "Botswana"
+[1562786146.123][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-28"
+}
+[1562786146.123][INFO]: Waiting for pending navigations...
+[1562786146.124][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.151][INFO]: Waiting for pending navigations...
+[1562786146.152][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.152][INFO]: RESPONSE GetElementText "Bouvet Island"
+[1562786146.154][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-29"
+}
+[1562786146.154][INFO]: Waiting for pending navigations...
+[1562786146.155][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.177][INFO]: Waiting for pending navigations...
+[1562786146.179][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.179][INFO]: RESPONSE GetElementText "Brazil"
+[1562786146.181][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-30"
+}
+[1562786146.181][INFO]: Waiting for pending navigations...
+[1562786146.182][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.202][INFO]: Waiting for pending navigations...
+[1562786146.207][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.207][INFO]: RESPONSE GetElementText "British Indian Ocean Territory"
+[1562786146.211][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-31"
+}
+[1562786146.211][INFO]: Waiting for pending navigations...
+[1562786146.212][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.245][INFO]: Waiting for pending navigations...
+[1562786146.247][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.247][INFO]: RESPONSE GetElementText "Brunei"
+[1562786146.249][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-32"
+}
+[1562786146.249][INFO]: Waiting for pending navigations...
+[1562786146.250][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.271][INFO]: Waiting for pending navigations...
+[1562786146.272][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.273][INFO]: RESPONSE GetElementText "Bulgaria"
+[1562786146.274][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-33"
+}
+[1562786146.275][INFO]: Waiting for pending navigations...
+[1562786146.276][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.298][INFO]: Waiting for pending navigations...
+[1562786146.299][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.299][INFO]: RESPONSE GetElementText "Burkina Faso"
+[1562786146.302][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-34"
+}
+[1562786146.302][INFO]: Waiting for pending navigations...
+[1562786146.305][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.332][INFO]: Waiting for pending navigations...
+[1562786146.333][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.333][INFO]: RESPONSE GetElementText "Burundi"
+[1562786146.336][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-35"
+}
+[1562786146.336][INFO]: Waiting for pending navigations...
+[1562786146.337][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.358][INFO]: Waiting for pending navigations...
+[1562786146.359][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.359][INFO]: RESPONSE GetElementText "Cambodia"
+[1562786146.362][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-36"
+}
+[1562786146.362][INFO]: Waiting for pending navigations...
+[1562786146.364][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.397][INFO]: Waiting for pending navigations...
+[1562786146.398][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.398][INFO]: RESPONSE GetElementText "Cameroon"
+[1562786146.402][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-37"
+}
+[1562786146.402][INFO]: Waiting for pending navigations...
+[1562786146.403][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.430][INFO]: Waiting for pending navigations...
+[1562786146.431][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.431][INFO]: RESPONSE GetElementText "Canada"
+[1562786146.434][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-38"
+}
+[1562786146.434][INFO]: Waiting for pending navigations...
+[1562786146.435][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.459][INFO]: Waiting for pending navigations...
+[1562786146.460][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.460][INFO]: RESPONSE GetElementText "Cape Verde"
+[1562786146.462][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-39"
+}
+[1562786146.462][INFO]: Waiting for pending navigations...
+[1562786146.463][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.490][INFO]: Waiting for pending navigations...
+[1562786146.491][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.491][INFO]: RESPONSE GetElementText "Cayman Islands"
+[1562786146.493][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-40"
+}
+[1562786146.494][INFO]: Waiting for pending navigations...
+[1562786146.495][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.520][INFO]: Waiting for pending navigations...
+[1562786146.521][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.521][INFO]: RESPONSE GetElementText "Central African Republic"
+[1562786146.523][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-41"
+}
+[1562786146.523][INFO]: Waiting for pending navigations...
+[1562786146.524][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.549][INFO]: Waiting for pending navigations...
+[1562786146.550][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.550][INFO]: RESPONSE GetElementText "Chad"
+[1562786146.552][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-42"
+}
+[1562786146.552][INFO]: Waiting for pending navigations...
+[1562786146.553][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.591][INFO]: Waiting for pending navigations...
+[1562786146.592][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.593][INFO]: RESPONSE GetElementText "Chile"
+[1562786146.595][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-43"
+}
+[1562786146.595][INFO]: Waiting for pending navigations...
+[1562786146.596][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.615][INFO]: Waiting for pending navigations...
+[1562786146.616][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.616][INFO]: RESPONSE GetElementText "China"
+[1562786146.618][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-44"
+}
+[1562786146.618][INFO]: Waiting for pending navigations...
+[1562786146.619][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.639][INFO]: Waiting for pending navigations...
+[1562786146.643][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.643][INFO]: RESPONSE GetElementText "China (Hong Kong S.A.R.)"
+[1562786146.646][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-45"
+}
+[1562786146.646][INFO]: Waiting for pending navigations...
+[1562786146.647][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.670][INFO]: Waiting for pending navigations...
+[1562786146.671][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.671][INFO]: RESPONSE GetElementText "China (Macau S.A.R.)"
+[1562786146.674][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-46"
+}
+[1562786146.674][INFO]: Waiting for pending navigations...
+[1562786146.675][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.698][INFO]: Waiting for pending navigations...
+[1562786146.700][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.700][INFO]: RESPONSE GetElementText "Christmas Island"
+[1562786146.702][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-47"
+}
+[1562786146.702][INFO]: Waiting for pending navigations...
+[1562786146.703][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.730][INFO]: Waiting for pending navigations...
+[1562786146.731][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.731][INFO]: RESPONSE GetElementText "Cocos (Keeling) Islands"
+[1562786146.733][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-48"
+}
+[1562786146.733][INFO]: Waiting for pending navigations...
+[1562786146.734][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.755][INFO]: Waiting for pending navigations...
+[1562786146.756][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.756][INFO]: RESPONSE GetElementText "Colombia"
+[1562786146.758][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-49"
+}
+[1562786146.758][INFO]: Waiting for pending navigations...
+[1562786146.759][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.790][INFO]: Waiting for pending navigations...
+[1562786146.791][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.791][INFO]: RESPONSE GetElementText "Comoros"
+[1562786146.794][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-50"
+}
+[1562786146.794][INFO]: Waiting for pending navigations...
+[1562786146.795][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.825][INFO]: Waiting for pending navigations...
+[1562786146.830][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.830][INFO]: RESPONSE GetElementText "Congo"
+[1562786146.831][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-51"
+}
+[1562786146.831][INFO]: Waiting for pending navigations...
+[1562786146.832][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.852][INFO]: Waiting for pending navigations...
+[1562786146.853][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.853][INFO]: RESPONSE GetElementText "Congo Democractic Republic of the"
+[1562786146.855][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-52"
+}
+[1562786146.855][INFO]: Waiting for pending navigations...
+[1562786146.856][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.885][INFO]: Waiting for pending navigations...
+[1562786146.886][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.886][INFO]: RESPONSE GetElementText "Cook Islands"
+[1562786146.889][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-53"
+}
+[1562786146.889][INFO]: Waiting for pending navigations...
+[1562786146.891][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.924][INFO]: Waiting for pending navigations...
+[1562786146.925][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.925][INFO]: RESPONSE GetElementText "Costa Rica"
+[1562786146.929][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-54"
+}
+[1562786146.929][INFO]: Waiting for pending navigations...
+[1562786146.930][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.958][INFO]: Waiting for pending navigations...
+[1562786146.958][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.959][INFO]: RESPONSE GetElementText "Cote D'Ivoire (Ivory Coast)"
+[1562786146.961][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-55"
+}
+[1562786146.961][INFO]: Waiting for pending navigations...
+[1562786146.962][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.981][INFO]: Waiting for pending navigations...
+[1562786146.982][INFO]: Done waiting for pending navigations. Status: ok
+[1562786146.982][INFO]: RESPONSE GetElementText "Croatia (Hrvatska)"
+[1562786146.984][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-56"
+}
+[1562786146.985][INFO]: Waiting for pending navigations...
+[1562786146.986][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.018][INFO]: Waiting for pending navigations...
+[1562786147.019][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.019][INFO]: RESPONSE GetElementText "Cuba"
+[1562786147.022][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-57"
+}
+[1562786147.022][INFO]: Waiting for pending navigations...
+[1562786147.023][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.058][INFO]: Waiting for pending navigations...
+[1562786147.059][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.059][INFO]: RESPONSE GetElementText "Cyprus"
+[1562786147.062][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-58"
+}
+[1562786147.062][INFO]: Waiting for pending navigations...
+[1562786147.063][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.086][INFO]: Waiting for pending navigations...
+[1562786147.087][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.087][INFO]: RESPONSE GetElementText "Czech Republic"
+[1562786147.089][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-59"
+}
+[1562786147.089][INFO]: Waiting for pending navigations...
+[1562786147.091][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.128][INFO]: Waiting for pending navigations...
+[1562786147.130][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.130][INFO]: RESPONSE GetElementText "Denmark"
+[1562786147.134][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-60"
+}
+[1562786147.134][INFO]: Waiting for pending navigations...
+[1562786147.135][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.173][INFO]: Waiting for pending navigations...
+[1562786147.173][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.174][INFO]: RESPONSE GetElementText "Djibouti"
+[1562786147.177][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-61"
+}
+[1562786147.177][INFO]: Waiting for pending navigations...
+[1562786147.178][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.201][INFO]: Waiting for pending navigations...
+[1562786147.202][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.202][INFO]: RESPONSE GetElementText "Dominica"
+[1562786147.205][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-62"
+}
+[1562786147.205][INFO]: Waiting for pending navigations...
+[1562786147.206][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.227][INFO]: Waiting for pending navigations...
+[1562786147.228][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.228][INFO]: RESPONSE GetElementText "Dominican Republic"
+[1562786147.230][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-63"
+}
+[1562786147.230][INFO]: Waiting for pending navigations...
+[1562786147.231][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.251][INFO]: Waiting for pending navigations...
+[1562786147.252][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.252][INFO]: RESPONSE GetElementText "East Timor"
+[1562786147.256][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-64"
+}
+[1562786147.256][INFO]: Waiting for pending navigations...
+[1562786147.257][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.303][INFO]: Waiting for pending navigations...
+[1562786147.307][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.307][INFO]: RESPONSE GetElementText "Ecuador"
+[1562786147.309][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-65"
+}
+[1562786147.309][INFO]: Waiting for pending navigations...
+[1562786147.310][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.337][INFO]: Waiting for pending navigations...
+[1562786147.338][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.338][INFO]: RESPONSE GetElementText "Egypt"
+[1562786147.341][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-66"
+}
+[1562786147.341][INFO]: Waiting for pending navigations...
+[1562786147.342][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.369][INFO]: Waiting for pending navigations...
+[1562786147.375][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.375][INFO]: RESPONSE GetElementText "El Salvador"
+[1562786147.378][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-67"
+}
+[1562786147.378][INFO]: Waiting for pending navigations...
+[1562786147.379][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.402][INFO]: Waiting for pending navigations...
+[1562786147.404][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.404][INFO]: RESPONSE GetElementText "Equatorial Guinea"
+[1562786147.407][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-68"
+}
+[1562786147.407][INFO]: Waiting for pending navigations...
+[1562786147.408][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.440][INFO]: Waiting for pending navigations...
+[1562786147.441][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.441][INFO]: RESPONSE GetElementText "Eritrea"
+[1562786147.443][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-69"
+}
+[1562786147.443][INFO]: Waiting for pending navigations...
+[1562786147.444][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.463][INFO]: Waiting for pending navigations...
+[1562786147.468][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.468][INFO]: RESPONSE GetElementText "Estonia"
+[1562786147.472][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-70"
+}
+[1562786147.472][INFO]: Waiting for pending navigations...
+[1562786147.473][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.501][INFO]: Waiting for pending navigations...
+[1562786147.512][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.512][INFO]: RESPONSE GetElementText "Ethiopia"
+[1562786147.515][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-71"
+}
+[1562786147.515][INFO]: Waiting for pending navigations...
+[1562786147.516][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.553][INFO]: Waiting for pending navigations...
+[1562786147.554][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.554][INFO]: RESPONSE GetElementText "Falkland Islands (Islas Malvinas)"
+[1562786147.556][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-72"
+}
+[1562786147.556][INFO]: Waiting for pending navigations...
+[1562786147.557][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.578][INFO]: Waiting for pending navigations...
+[1562786147.579][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.579][INFO]: RESPONSE GetElementText "Faroe Islands"
+[1562786147.582][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-73"
+}
+[1562786147.582][INFO]: Waiting for pending navigations...
+[1562786147.583][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.604][INFO]: Waiting for pending navigations...
+[1562786147.605][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.605][INFO]: RESPONSE GetElementText "Fiji Islands"
+[1562786147.609][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-74"
+}
+[1562786147.609][INFO]: Waiting for pending navigations...
+[1562786147.610][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.655][INFO]: Waiting for pending navigations...
+[1562786147.656][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.656][INFO]: RESPONSE GetElementText "Finland"
+[1562786147.659][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-75"
+}
+[1562786147.659][INFO]: Waiting for pending navigations...
+[1562786147.660][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.685][INFO]: Waiting for pending navigations...
+[1562786147.685][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.685][INFO]: RESPONSE GetElementText "France"
+[1562786147.688][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-76"
+}
+[1562786147.688][INFO]: Waiting for pending navigations...
+[1562786147.688][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.709][INFO]: Waiting for pending navigations...
+[1562786147.710][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.710][INFO]: RESPONSE GetElementText "French Guiana"
+[1562786147.713][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-77"
+}
+[1562786147.713][INFO]: Waiting for pending navigations...
+[1562786147.714][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.754][INFO]: Waiting for pending navigations...
+[1562786147.755][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.755][INFO]: RESPONSE GetElementText "French Polynesia"
+[1562786147.757][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-78"
+}
+[1562786147.757][INFO]: Waiting for pending navigations...
+[1562786147.758][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.788][INFO]: Waiting for pending navigations...
+[1562786147.789][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.789][INFO]: RESPONSE GetElementText "French Southern Territories"
+[1562786147.791][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-79"
+}
+[1562786147.791][INFO]: Waiting for pending navigations...
+[1562786147.792][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.811][INFO]: Waiting for pending navigations...
+[1562786147.812][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.812][INFO]: RESPONSE GetElementText "Gabon"
+[1562786147.815][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-80"
+}
+[1562786147.815][INFO]: Waiting for pending navigations...
+[1562786147.816][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.840][INFO]: Waiting for pending navigations...
+[1562786147.841][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.841][INFO]: RESPONSE GetElementText "Gambia"
+[1562786147.843][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-81"
+}
+[1562786147.843][INFO]: Waiting for pending navigations...
+[1562786147.844][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.873][INFO]: Waiting for pending navigations...
+[1562786147.874][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.874][INFO]: RESPONSE GetElementText "Georgia"
+[1562786147.876][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-82"
+}
+[1562786147.876][INFO]: Waiting for pending navigations...
+[1562786147.877][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.907][INFO]: Waiting for pending navigations...
+[1562786147.908][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.909][INFO]: RESPONSE GetElementText "Germany"
+[1562786147.912][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-83"
+}
+[1562786147.912][INFO]: Waiting for pending navigations...
+[1562786147.913][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.944][INFO]: Waiting for pending navigations...
+[1562786147.945][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.945][INFO]: RESPONSE GetElementText "Ghana"
+[1562786147.948][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-84"
+}
+[1562786147.948][INFO]: Waiting for pending navigations...
+[1562786147.949][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.977][INFO]: Waiting for pending navigations...
+[1562786147.978][INFO]: Done waiting for pending navigations. Status: ok
+[1562786147.979][INFO]: RESPONSE GetElementText "Gibraltar"
+[1562786147.981][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-85"
+}
+[1562786147.981][INFO]: Waiting for pending navigations...
+[1562786147.982][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.015][INFO]: Waiting for pending navigations...
+[1562786148.016][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.016][INFO]: RESPONSE GetElementText "Greece"
+[1562786148.019][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-86"
+}
+[1562786148.019][INFO]: Waiting for pending navigations...
+[1562786148.020][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.068][INFO]: Waiting for pending navigations...
+[1562786148.069][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.069][INFO]: RESPONSE GetElementText "Greenland"
+[1562786148.071][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-87"
+}
+[1562786148.071][INFO]: Waiting for pending navigations...
+[1562786148.073][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.099][INFO]: Waiting for pending navigations...
+[1562786148.100][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.100][INFO]: RESPONSE GetElementText "Grenada"
+[1562786148.102][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-88"
+}
+[1562786148.102][INFO]: Waiting for pending navigations...
+[1562786148.103][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.130][INFO]: Waiting for pending navigations...
+[1562786148.137][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.137][INFO]: RESPONSE GetElementText "Guadeloupe"
+[1562786148.141][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-89"
+}
+[1562786148.141][INFO]: Waiting for pending navigations...
+[1562786148.143][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.183][INFO]: Waiting for pending navigations...
+[1562786148.184][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.184][INFO]: RESPONSE GetElementText "Guam"
+[1562786148.186][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-90"
+}
+[1562786148.186][INFO]: Waiting for pending navigations...
+[1562786148.188][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.212][INFO]: Waiting for pending navigations...
+[1562786148.213][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.213][INFO]: RESPONSE GetElementText "Guatemala"
+[1562786148.215][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-91"
+}
+[1562786148.215][INFO]: Waiting for pending navigations...
+[1562786148.216][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.241][INFO]: Waiting for pending navigations...
+[1562786148.242][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.242][INFO]: RESPONSE GetElementText "Guinea"
+[1562786148.244][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-92"
+}
+[1562786148.244][INFO]: Waiting for pending navigations...
+[1562786148.245][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.268][INFO]: Waiting for pending navigations...
+[1562786148.269][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.269][INFO]: RESPONSE GetElementText "Guinea-Bissau"
+[1562786148.272][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-93"
+}
+[1562786148.272][INFO]: Waiting for pending navigations...
+[1562786148.273][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.306][INFO]: Waiting for pending navigations...
+[1562786148.369][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.369][INFO]: RESPONSE GetElementText "Guyana"
+[1562786148.371][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-94"
+}
+[1562786148.371][INFO]: Waiting for pending navigations...
+[1562786148.372][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.409][INFO]: Waiting for pending navigations...
+[1562786148.413][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.413][INFO]: RESPONSE GetElementText "Haiti"
+[1562786148.415][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-95"
+}
+[1562786148.415][INFO]: Waiting for pending navigations...
+[1562786148.417][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.439][INFO]: Waiting for pending navigations...
+[1562786148.441][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.441][INFO]: RESPONSE GetElementText "Heard and McDonald Islands"
+[1562786148.443][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-96"
+}
+[1562786148.443][INFO]: Waiting for pending navigations...
+[1562786148.444][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.476][INFO]: Waiting for pending navigations...
+[1562786148.477][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.477][INFO]: RESPONSE GetElementText "Honduras"
+[1562786148.479][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-97"
+}
+[1562786148.479][INFO]: Waiting for pending navigations...
+[1562786148.480][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.519][INFO]: Waiting for pending navigations...
+[1562786148.520][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.520][INFO]: RESPONSE GetElementText "Hungary"
+[1562786148.522][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-98"
+}
+[1562786148.522][INFO]: Waiting for pending navigations...
+[1562786148.523][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.548][INFO]: Waiting for pending navigations...
+[1562786148.549][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.549][INFO]: RESPONSE GetElementText "Iceland"
+[1562786148.551][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-99"
+}
+[1562786148.551][INFO]: Waiting for pending navigations...
+[1562786148.552][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.578][INFO]: Waiting for pending navigations...
+[1562786148.579][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.579][INFO]: RESPONSE GetElementText "Indonesia"
+[1562786148.582][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-100"
+}
+[1562786148.582][INFO]: Waiting for pending navigations...
+[1562786148.583][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.614][INFO]: Waiting for pending navigations...
+[1562786148.615][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.615][INFO]: RESPONSE GetElementText "Iran"
+[1562786148.617][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-101"
+}
+[1562786148.617][INFO]: Waiting for pending navigations...
+[1562786148.619][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.645][INFO]: Waiting for pending navigations...
+[1562786148.646][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.646][INFO]: RESPONSE GetElementText "Iraq"
+[1562786148.648][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-102"
+}
+[1562786148.649][INFO]: Waiting for pending navigations...
+[1562786148.650][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.672][INFO]: Waiting for pending navigations...
+[1562786148.673][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.673][INFO]: RESPONSE GetElementText "Ireland"
+[1562786148.675][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-103"
+}
+[1562786148.675][INFO]: Waiting for pending navigations...
+[1562786148.676][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.702][INFO]: Waiting for pending navigations...
+[1562786148.704][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.704][INFO]: RESPONSE GetElementText "Israel"
+[1562786148.716][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-104"
+}
+[1562786148.716][INFO]: Waiting for pending navigations...
+[1562786148.717][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.763][INFO]: Waiting for pending navigations...
+[1562786148.764][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.764][INFO]: RESPONSE GetElementText "Italy"
+[1562786148.766][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-105"
+}
+[1562786148.766][INFO]: Waiting for pending navigations...
+[1562786148.767][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.794][INFO]: Waiting for pending navigations...
+[1562786148.795][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.795][INFO]: RESPONSE GetElementText "Jamaica"
+[1562786148.799][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-106"
+}
+[1562786148.799][INFO]: Waiting for pending navigations...
+[1562786148.801][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.824][INFO]: Waiting for pending navigations...
+[1562786148.825][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.825][INFO]: RESPONSE GetElementText "Japan"
+[1562786148.827][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-107"
+}
+[1562786148.827][INFO]: Waiting for pending navigations...
+[1562786148.828][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.849][INFO]: Waiting for pending navigations...
+[1562786148.850][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.851][INFO]: RESPONSE GetElementText "Jordan"
+[1562786148.853][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-108"
+}
+[1562786148.853][INFO]: Waiting for pending navigations...
+[1562786148.854][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.895][INFO]: Waiting for pending navigations...
+[1562786148.896][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.896][INFO]: RESPONSE GetElementText "Kazakhstan"
+[1562786148.899][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-109"
+}
+[1562786148.899][INFO]: Waiting for pending navigations...
+[1562786148.900][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.922][INFO]: Waiting for pending navigations...
+[1562786148.923][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.923][INFO]: RESPONSE GetElementText "Kenya"
+[1562786148.925][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-110"
+}
+[1562786148.925][INFO]: Waiting for pending navigations...
+[1562786148.926][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.952][INFO]: Waiting for pending navigations...
+[1562786148.961][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.961][INFO]: RESPONSE GetElementText "Kiribati"
+[1562786148.963][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-111"
+}
+[1562786148.963][INFO]: Waiting for pending navigations...
+[1562786148.964][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.988][INFO]: Waiting for pending navigations...
+[1562786148.989][INFO]: Done waiting for pending navigations. Status: ok
+[1562786148.989][INFO]: RESPONSE GetElementText "Korea"
+[1562786148.992][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-112"
+}
+[1562786148.992][INFO]: Waiting for pending navigations...
+[1562786148.993][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.026][INFO]: Waiting for pending navigations...
+[1562786149.027][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.027][INFO]: RESPONSE GetElementText "Korea North"
+[1562786149.029][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-113"
+}
+[1562786149.029][INFO]: Waiting for pending navigations...
+[1562786149.030][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.050][INFO]: Waiting for pending navigations...
+[1562786149.051][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.051][INFO]: RESPONSE GetElementText "Kuwait"
+[1562786149.053][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-114"
+}
+[1562786149.053][INFO]: Waiting for pending navigations...
+[1562786149.055][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.077][INFO]: Waiting for pending navigations...
+[1562786149.078][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.078][INFO]: RESPONSE GetElementText "Kyrgyzstan"
+[1562786149.083][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-115"
+}
+[1562786149.084][INFO]: Waiting for pending navigations...
+[1562786149.085][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.107][INFO]: Waiting for pending navigations...
+[1562786149.108][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.108][INFO]: RESPONSE GetElementText "Laos"
+[1562786149.111][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-116"
+}
+[1562786149.111][INFO]: Waiting for pending navigations...
+[1562786149.112][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.140][INFO]: Waiting for pending navigations...
+[1562786149.144][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.144][INFO]: RESPONSE GetElementText "Latvia"
+[1562786149.146][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-117"
+}
+[1562786149.146][INFO]: Waiting for pending navigations...
+[1562786149.147][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.168][INFO]: Waiting for pending navigations...
+[1562786149.168][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.168][INFO]: RESPONSE GetElementText "Lebanon"
+[1562786149.171][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-118"
+}
+[1562786149.171][INFO]: Waiting for pending navigations...
+[1562786149.172][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.194][INFO]: Waiting for pending navigations...
+[1562786149.195][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.195][INFO]: RESPONSE GetElementText "Lesotho"
+[1562786149.197][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-119"
+}
+[1562786149.197][INFO]: Waiting for pending navigations...
+[1562786149.198][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.243][INFO]: Waiting for pending navigations...
+[1562786149.245][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.245][INFO]: RESPONSE GetElementText "Liberia"
+[1562786149.247][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-120"
+}
+[1562786149.247][INFO]: Waiting for pending navigations...
+[1562786149.248][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.268][INFO]: Waiting for pending navigations...
+[1562786149.269][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.269][INFO]: RESPONSE GetElementText "Libya"
+[1562786149.272][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-121"
+}
+[1562786149.272][INFO]: Waiting for pending navigations...
+[1562786149.273][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.295][INFO]: Waiting for pending navigations...
+[1562786149.296][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.296][INFO]: RESPONSE GetElementText "Liechtenstein"
+[1562786149.298][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-122"
+}
+[1562786149.298][INFO]: Waiting for pending navigations...
+[1562786149.299][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.320][INFO]: Waiting for pending navigations...
+[1562786149.321][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.321][INFO]: RESPONSE GetElementText "Lithuania"
+[1562786149.324][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-123"
+}
+[1562786149.324][INFO]: Waiting for pending navigations...
+[1562786149.325][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.355][INFO]: Waiting for pending navigations...
+[1562786149.356][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.356][INFO]: RESPONSE GetElementText "Luxembourg"
+[1562786149.358][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-124"
+}
+[1562786149.358][INFO]: Waiting for pending navigations...
+[1562786149.359][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.387][INFO]: Waiting for pending navigations...
+[1562786149.388][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.388][INFO]: RESPONSE GetElementText "Macedonia Former Yugoslav Republic of"
+[1562786149.390][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-125"
+}
+[1562786149.390][INFO]: Waiting for pending navigations...
+[1562786149.391][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.414][INFO]: Waiting for pending navigations...
+[1562786149.415][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.415][INFO]: RESPONSE GetElementText "Madagascar"
+[1562786149.417][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-126"
+}
+[1562786149.417][INFO]: Waiting for pending navigations...
+[1562786149.420][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.444][INFO]: Waiting for pending navigations...
+[1562786149.445][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.445][INFO]: RESPONSE GetElementText "Malawi"
+[1562786149.447][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-127"
+}
+[1562786149.447][INFO]: Waiting for pending navigations...
+[1562786149.448][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.470][INFO]: Waiting for pending navigations...
+[1562786149.474][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.474][INFO]: RESPONSE GetElementText "Malaysia"
+[1562786149.477][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-128"
+}
+[1562786149.477][INFO]: Waiting for pending navigations...
+[1562786149.478][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.498][INFO]: Waiting for pending navigations...
+[1562786149.499][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.499][INFO]: RESPONSE GetElementText "Maldives"
+[1562786149.501][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-129"
+}
+[1562786149.501][INFO]: Waiting for pending navigations...
+[1562786149.502][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.538][INFO]: Waiting for pending navigations...
+[1562786149.539][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.540][INFO]: RESPONSE GetElementText "Mali"
+[1562786149.542][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-130"
+}
+[1562786149.542][INFO]: Waiting for pending navigations...
+[1562786149.543][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.568][INFO]: Waiting for pending navigations...
+[1562786149.569][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.569][INFO]: RESPONSE GetElementText "Malta"
+[1562786149.571][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-131"
+}
+[1562786149.571][INFO]: Waiting for pending navigations...
+[1562786149.573][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.605][INFO]: Waiting for pending navigations...
+[1562786149.606][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.606][INFO]: RESPONSE GetElementText "Marshall Islands"
+[1562786149.608][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-132"
+}
+[1562786149.608][INFO]: Waiting for pending navigations...
+[1562786149.609][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.640][INFO]: Waiting for pending navigations...
+[1562786149.669][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.669][INFO]: RESPONSE GetElementText "Martinique"
+[1562786149.672][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-133"
+}
+[1562786149.672][INFO]: Waiting for pending navigations...
+[1562786149.673][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.710][INFO]: Waiting for pending navigations...
+[1562786149.711][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.711][INFO]: RESPONSE GetElementText "Mauritania"
+[1562786149.714][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-134"
+}
+[1562786149.714][INFO]: Waiting for pending navigations...
+[1562786149.715][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.745][INFO]: Waiting for pending navigations...
+[1562786149.746][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.746][INFO]: RESPONSE GetElementText "Mauritius"
+[1562786149.748][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-135"
+}
+[1562786149.748][INFO]: Waiting for pending navigations...
+[1562786149.749][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.770][INFO]: Waiting for pending navigations...
+[1562786149.771][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.771][INFO]: RESPONSE GetElementText "Mayotte"
+[1562786149.773][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-136"
+}
+[1562786149.773][INFO]: Waiting for pending navigations...
+[1562786149.774][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.802][INFO]: Waiting for pending navigations...
+[1562786149.803][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.803][INFO]: RESPONSE GetElementText "Mexico"
+[1562786149.805][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-137"
+}
+[1562786149.805][INFO]: Waiting for pending navigations...
+[1562786149.806][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.830][INFO]: Waiting for pending navigations...
+[1562786149.831][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.831][INFO]: RESPONSE GetElementText "Micronesia"
+[1562786149.834][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-138"
+}
+[1562786149.834][INFO]: Waiting for pending navigations...
+[1562786149.835][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.857][INFO]: Waiting for pending navigations...
+[1562786149.858][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.858][INFO]: RESPONSE GetElementText "Moldova"
+[1562786149.860][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-139"
+}
+[1562786149.860][INFO]: Waiting for pending navigations...
+[1562786149.861][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.885][INFO]: Waiting for pending navigations...
+[1562786149.886][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.886][INFO]: RESPONSE GetElementText "Monaco"
+[1562786149.888][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-140"
+}
+[1562786149.888][INFO]: Waiting for pending navigations...
+[1562786149.889][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.911][INFO]: Waiting for pending navigations...
+[1562786149.912][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.912][INFO]: RESPONSE GetElementText "Mongolia"
+[1562786149.913][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-141"
+}
+[1562786149.913][INFO]: Waiting for pending navigations...
+[1562786149.914][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.942][INFO]: Waiting for pending navigations...
+[1562786149.943][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.943][INFO]: RESPONSE GetElementText "Montserrat"
+[1562786149.945][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-142"
+}
+[1562786149.945][INFO]: Waiting for pending navigations...
+[1562786149.946][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.968][INFO]: Waiting for pending navigations...
+[1562786149.969][INFO]: Done waiting for pending navigations. Status: ok
+[1562786149.969][INFO]: RESPONSE GetElementText "Morocco"
+[1562786149.972][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-143"
+}
+[1562786149.972][INFO]: Waiting for pending navigations...
+[1562786149.973][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.013][INFO]: Waiting for pending navigations...
+[1562786150.014][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.014][INFO]: RESPONSE GetElementText "Mozambique"
+[1562786150.016][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-144"
+}
+[1562786150.016][INFO]: Waiting for pending navigations...
+[1562786150.017][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.046][INFO]: Waiting for pending navigations...
+[1562786150.047][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.047][INFO]: RESPONSE GetElementText "Myanmar"
+[1562786150.049][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-145"
+}
+[1562786150.049][INFO]: Waiting for pending navigations...
+[1562786150.050][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.079][INFO]: Waiting for pending navigations...
+[1562786150.080][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.080][INFO]: RESPONSE GetElementText "Namibia"
+[1562786150.082][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-146"
+}
+[1562786150.082][INFO]: Waiting for pending navigations...
+[1562786150.083][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.107][INFO]: Waiting for pending navigations...
+[1562786150.108][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.108][INFO]: RESPONSE GetElementText "Nauru"
+[1562786150.116][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-147"
+}
+[1562786150.117][INFO]: Waiting for pending navigations...
+[1562786150.118][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.147][INFO]: Waiting for pending navigations...
+[1562786150.148][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.148][INFO]: RESPONSE GetElementText "Nepal"
+[1562786150.152][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-148"
+}
+[1562786150.152][INFO]: Waiting for pending navigations...
+[1562786150.153][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.173][INFO]: Waiting for pending navigations...
+[1562786150.174][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.174][INFO]: RESPONSE GetElementText "Netherlands Antilles"
+[1562786150.175][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-149"
+}
+[1562786150.175][INFO]: Waiting for pending navigations...
+[1562786150.176][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.204][INFO]: Waiting for pending navigations...
+[1562786150.207][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.207][INFO]: RESPONSE GetElementText "Netherlands"
+[1562786150.208][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-150"
+}
+[1562786150.208][INFO]: Waiting for pending navigations...
+[1562786150.209][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.232][INFO]: Waiting for pending navigations...
+[1562786150.233][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.233][INFO]: RESPONSE GetElementText "New Caledonia"
+[1562786150.235][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-151"
+}
+[1562786150.235][INFO]: Waiting for pending navigations...
+[1562786150.236][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.265][INFO]: Waiting for pending navigations...
+[1562786150.266][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.266][INFO]: RESPONSE GetElementText "New Zealand"
+[1562786150.268][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-152"
+}
+[1562786150.268][INFO]: Waiting for pending navigations...
+[1562786150.269][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.293][INFO]: Waiting for pending navigations...
+[1562786150.294][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.294][INFO]: RESPONSE GetElementText "Nicaragua"
+[1562786150.296][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-153"
+}
+[1562786150.297][INFO]: Waiting for pending navigations...
+[1562786150.298][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.323][INFO]: Waiting for pending navigations...
+[1562786150.324][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.324][INFO]: RESPONSE GetElementText "Niger"
+[1562786150.326][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-154"
+}
+[1562786150.326][INFO]: Waiting for pending navigations...
+[1562786150.327][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.357][INFO]: Waiting for pending navigations...
+[1562786150.361][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.361][INFO]: RESPONSE GetElementText "Nigeria"
+[1562786150.363][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-155"
+}
+[1562786150.363][INFO]: Waiting for pending navigations...
+[1562786150.364][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.394][INFO]: Waiting for pending navigations...
+[1562786150.394][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.395][INFO]: RESPONSE GetElementText "Niue"
+[1562786150.396][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-156"
+}
+[1562786150.396][INFO]: Waiting for pending navigations...
+[1562786150.397][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.427][INFO]: Waiting for pending navigations...
+[1562786150.428][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.428][INFO]: RESPONSE GetElementText "Norfolk Island"
+[1562786150.430][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-157"
+}
+[1562786150.430][INFO]: Waiting for pending navigations...
+[1562786150.431][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.455][INFO]: Waiting for pending navigations...
+[1562786150.456][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.456][INFO]: RESPONSE GetElementText "Northern Mariana Islands"
+[1562786150.458][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-158"
+}
+[1562786150.458][INFO]: Waiting for pending navigations...
+[1562786150.459][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.485][INFO]: Waiting for pending navigations...
+[1562786150.486][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.486][INFO]: RESPONSE GetElementText "Norway"
+[1562786150.489][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-159"
+}
+[1562786150.489][INFO]: Waiting for pending navigations...
+[1562786150.490][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.517][INFO]: Waiting for pending navigations...
+[1562786150.518][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.518][INFO]: RESPONSE GetElementText "Oman"
+[1562786150.521][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-160"
+}
+[1562786150.521][INFO]: Waiting for pending navigations...
+[1562786150.522][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.543][INFO]: Waiting for pending navigations...
+[1562786150.544][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.544][INFO]: RESPONSE GetElementText "Pakistan"
+[1562786150.545][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-161"
+}
+[1562786150.545][INFO]: Waiting for pending navigations...
+[1562786150.546][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.573][INFO]: Waiting for pending navigations...
+[1562786150.574][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.574][INFO]: RESPONSE GetElementText "Palau"
+[1562786150.575][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-162"
+}
+[1562786150.575][INFO]: Waiting for pending navigations...
+[1562786150.576][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.606][INFO]: Waiting for pending navigations...
+[1562786150.607][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.607][INFO]: RESPONSE GetElementText "Panama"
+[1562786150.609][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-163"
+}
+[1562786150.609][INFO]: Waiting for pending navigations...
+[1562786150.610][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.647][INFO]: Waiting for pending navigations...
+[1562786150.648][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.649][INFO]: RESPONSE GetElementText "Papua new Guinea"
+[1562786150.651][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-164"
+}
+[1562786150.651][INFO]: Waiting for pending navigations...
+[1562786150.652][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.675][INFO]: Waiting for pending navigations...
+[1562786150.676][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.676][INFO]: RESPONSE GetElementText "Paraguay"
+[1562786150.678][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-165"
+}
+[1562786150.678][INFO]: Waiting for pending navigations...
+[1562786150.679][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.701][INFO]: Waiting for pending navigations...
+[1562786150.702][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.702][INFO]: RESPONSE GetElementText "Peru"
+[1562786150.704][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-166"
+}
+[1562786150.704][INFO]: Waiting for pending navigations...
+[1562786150.705][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.729][INFO]: Waiting for pending navigations...
+[1562786150.730][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.730][INFO]: RESPONSE GetElementText "Philippines"
+[1562786150.732][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-167"
+}
+[1562786150.732][INFO]: Waiting for pending navigations...
+[1562786150.733][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.757][INFO]: Waiting for pending navigations...
+[1562786150.757][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.757][INFO]: RESPONSE GetElementText "Pitcairn Island"
+[1562786150.759][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-168"
+}
+[1562786150.759][INFO]: Waiting for pending navigations...
+[1562786150.760][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.800][INFO]: Waiting for pending navigations...
+[1562786150.801][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.801][INFO]: RESPONSE GetElementText "Poland"
+[1562786150.803][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-169"
+}
+[1562786150.803][INFO]: Waiting for pending navigations...
+[1562786150.804][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.835][INFO]: Waiting for pending navigations...
+[1562786150.836][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.836][INFO]: RESPONSE GetElementText "Portugal"
+[1562786150.839][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-170"
+}
+[1562786150.839][INFO]: Waiting for pending navigations...
+[1562786150.840][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.860][INFO]: Waiting for pending navigations...
+[1562786150.860][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.860][INFO]: RESPONSE GetElementText "Puerto Rico"
+[1562786150.862][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-171"
+}
+[1562786150.862][INFO]: Waiting for pending navigations...
+[1562786150.863][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.892][INFO]: Waiting for pending navigations...
+[1562786150.896][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.896][INFO]: RESPONSE GetElementText "Qatar"
+[1562786150.898][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-172"
+}
+[1562786150.898][INFO]: Waiting for pending navigations...
+[1562786150.899][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.929][INFO]: Waiting for pending navigations...
+[1562786150.930][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.930][INFO]: RESPONSE GetElementText "Reunion"
+[1562786150.932][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-173"
+}
+[1562786150.932][INFO]: Waiting for pending navigations...
+[1562786150.933][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.954][INFO]: Waiting for pending navigations...
+[1562786150.955][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.955][INFO]: RESPONSE GetElementText "Romania"
+[1562786150.957][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-174"
+}
+[1562786150.957][INFO]: Waiting for pending navigations...
+[1562786150.958][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.979][INFO]: Waiting for pending navigations...
+[1562786150.980][INFO]: Done waiting for pending navigations. Status: ok
+[1562786150.980][INFO]: RESPONSE GetElementText "Russia"
+[1562786150.982][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-175"
+}
+[1562786150.982][INFO]: Waiting for pending navigations...
+[1562786150.983][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.012][INFO]: Waiting for pending navigations...
+[1562786151.013][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.013][INFO]: RESPONSE GetElementText "Rwanda"
+[1562786151.015][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-176"
+}
+[1562786151.015][INFO]: Waiting for pending navigations...
+[1562786151.016][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.043][INFO]: Waiting for pending navigations...
+[1562786151.047][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.047][INFO]: RESPONSE GetElementText "Saint Helena"
+[1562786151.049][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-177"
+}
+[1562786151.049][INFO]: Waiting for pending navigations...
+[1562786151.050][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.077][INFO]: Waiting for pending navigations...
+[1562786151.078][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.079][INFO]: RESPONSE GetElementText "Saint Kitts And Nevis"
+[1562786151.080][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-178"
+}
+[1562786151.081][INFO]: Waiting for pending navigations...
+[1562786151.082][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.102][INFO]: Waiting for pending navigations...
+[1562786151.103][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.103][INFO]: RESPONSE GetElementText "Saint Lucia"
+[1562786151.105][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-179"
+}
+[1562786151.105][INFO]: Waiting for pending navigations...
+[1562786151.106][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.147][INFO]: Waiting for pending navigations...
+[1562786151.148][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.148][INFO]: RESPONSE GetElementText "Saint Pierre and Miquelon"
+[1562786151.151][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-180"
+}
+[1562786151.151][INFO]: Waiting for pending navigations...
+[1562786151.152][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.176][INFO]: Waiting for pending navigations...
+[1562786151.177][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.177][INFO]: RESPONSE GetElementText "Saint Vincent And The Grenadines"
+[1562786151.179][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-181"
+}
+[1562786151.179][INFO]: Waiting for pending navigations...
+[1562786151.180][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.200][INFO]: Waiting for pending navigations...
+[1562786151.201][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.201][INFO]: RESPONSE GetElementText "Samoa"
+[1562786151.203][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-182"
+}
+[1562786151.203][INFO]: Waiting for pending navigations...
+[1562786151.205][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.227][INFO]: Waiting for pending navigations...
+[1562786151.228][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.228][INFO]: RESPONSE GetElementText "San Marino"
+[1562786151.230][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-183"
+}
+[1562786151.230][INFO]: Waiting for pending navigations...
+[1562786151.231][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.274][INFO]: Waiting for pending navigations...
+[1562786151.275][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.275][INFO]: RESPONSE GetElementText "Sao Tome and Principe"
+[1562786151.279][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-184"
+}
+[1562786151.279][INFO]: Waiting for pending navigations...
+[1562786151.281][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.321][INFO]: Waiting for pending navigations...
+[1562786151.322][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.322][INFO]: RESPONSE GetElementText "Saudi Arabia"
+[1562786151.325][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-185"
+}
+[1562786151.325][INFO]: Waiting for pending navigations...
+[1562786151.326][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.358][INFO]: Waiting for pending navigations...
+[1562786151.359][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.359][INFO]: RESPONSE GetElementText "Senegal"
+[1562786151.361][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-186"
+}
+[1562786151.361][INFO]: Waiting for pending navigations...
+[1562786151.362][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.386][INFO]: Waiting for pending navigations...
+[1562786151.387][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.387][INFO]: RESPONSE GetElementText "Seychelles"
+[1562786151.389][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-187"
+}
+[1562786151.389][INFO]: Waiting for pending navigations...
+[1562786151.390][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.421][INFO]: Waiting for pending navigations...
+[1562786151.422][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.422][INFO]: RESPONSE GetElementText "Sierra Leone"
+[1562786151.424][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-188"
+}
+[1562786151.424][INFO]: Waiting for pending navigations...
+[1562786151.425][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.445][INFO]: Waiting for pending navigations...
+[1562786151.446][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.446][INFO]: RESPONSE GetElementText "Singapore"
+[1562786151.447][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-189"
+}
+[1562786151.447][INFO]: Waiting for pending navigations...
+[1562786151.448][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.469][INFO]: Waiting for pending navigations...
+[1562786151.470][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.470][INFO]: RESPONSE GetElementText "Slovakia"
+[1562786151.472][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-190"
+}
+[1562786151.472][INFO]: Waiting for pending navigations...
+[1562786151.473][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.494][INFO]: Waiting for pending navigations...
+[1562786151.495][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.495][INFO]: RESPONSE GetElementText "Slovenia"
+[1562786151.497][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-191"
+}
+[1562786151.497][INFO]: Waiting for pending navigations...
+[1562786151.498][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.527][INFO]: Waiting for pending navigations...
+[1562786151.528][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.528][INFO]: RESPONSE GetElementText "Solomon Islands"
+[1562786151.530][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-192"
+}
+[1562786151.530][INFO]: Waiting for pending navigations...
+[1562786151.531][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.555][INFO]: Waiting for pending navigations...
+[1562786151.556][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.556][INFO]: RESPONSE GetElementText "Somalia"
+[1562786151.557][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-193"
+}
+[1562786151.558][INFO]: Waiting for pending navigations...
+[1562786151.558][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.580][INFO]: Waiting for pending navigations...
+[1562786151.585][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.585][INFO]: RESPONSE GetElementText "South Africa"
+[1562786151.595][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-194"
+}
+[1562786151.595][INFO]: Waiting for pending navigations...
+[1562786151.596][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.626][INFO]: Waiting for pending navigations...
+[1562786151.627][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.627][INFO]: RESPONSE GetElementText "South Georgia And The South Sandwich Islands"
+[1562786151.629][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-195"
+}
+[1562786151.629][INFO]: Waiting for pending navigations...
+[1562786151.630][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.658][INFO]: Waiting for pending navigations...
+[1562786151.659][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.659][INFO]: RESPONSE GetElementText "Spain"
+[1562786151.661][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-196"
+}
+[1562786151.661][INFO]: Waiting for pending navigations...
+[1562786151.662][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.692][INFO]: Waiting for pending navigations...
+[1562786151.693][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.693][INFO]: RESPONSE GetElementText "Sri Lanka"
+[1562786151.695][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-197"
+}
+[1562786151.695][INFO]: Waiting for pending navigations...
+[1562786151.696][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.729][INFO]: Waiting for pending navigations...
+[1562786151.730][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.730][INFO]: RESPONSE GetElementText "Sudan"
+[1562786151.733][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-198"
+}
+[1562786151.733][INFO]: Waiting for pending navigations...
+[1562786151.734][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.755][INFO]: Waiting for pending navigations...
+[1562786151.756][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.756][INFO]: RESPONSE GetElementText "Suriname"
+[1562786151.760][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-199"
+}
+[1562786151.760][INFO]: Waiting for pending navigations...
+[1562786151.761][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.799][INFO]: Waiting for pending navigations...
+[1562786151.800][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.800][INFO]: RESPONSE GetElementText "Svalbard And Jan Mayen Islands"
+[1562786151.803][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-200"
+}
+[1562786151.803][INFO]: Waiting for pending navigations...
+[1562786151.804][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.840][INFO]: Waiting for pending navigations...
+[1562786151.841][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.841][INFO]: RESPONSE GetElementText "Swaziland"
+[1562786151.843][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-201"
+}
+[1562786151.843][INFO]: Waiting for pending navigations...
+[1562786151.844][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.870][INFO]: Waiting for pending navigations...
+[1562786151.871][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.871][INFO]: RESPONSE GetElementText "Sweden"
+[1562786151.878][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-202"
+}
+[1562786151.878][INFO]: Waiting for pending navigations...
+[1562786151.879][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.911][INFO]: Waiting for pending navigations...
+[1562786151.912][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.912][INFO]: RESPONSE GetElementText "Switzerland"
+[1562786151.915][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-203"
+}
+[1562786151.915][INFO]: Waiting for pending navigations...
+[1562786151.916][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.940][INFO]: Waiting for pending navigations...
+[1562786151.941][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.941][INFO]: RESPONSE GetElementText "Syria"
+[1562786151.943][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-204"
+}
+[1562786151.943][INFO]: Waiting for pending navigations...
+[1562786151.945][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.974][INFO]: Waiting for pending navigations...
+[1562786151.978][INFO]: Done waiting for pending navigations. Status: ok
+[1562786151.978][INFO]: RESPONSE GetElementText "Taiwan"
+[1562786151.980][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-205"
+}
+[1562786151.980][INFO]: Waiting for pending navigations...
+[1562786151.981][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.009][INFO]: Waiting for pending navigations...
+[1562786152.009][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.010][INFO]: RESPONSE GetElementText "Tajikistan"
+[1562786152.011][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-206"
+}
+[1562786152.011][INFO]: Waiting for pending navigations...
+[1562786152.012][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.035][INFO]: Waiting for pending navigations...
+[1562786152.036][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.036][INFO]: RESPONSE GetElementText "Tanzania"
+[1562786152.038][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-207"
+}
+[1562786152.038][INFO]: Waiting for pending navigations...
+[1562786152.038][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.059][INFO]: Waiting for pending navigations...
+[1562786152.059][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.059][INFO]: RESPONSE GetElementText "Thailand"
+[1562786152.061][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-208"
+}
+[1562786152.061][INFO]: Waiting for pending navigations...
+[1562786152.062][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.083][INFO]: Waiting for pending navigations...
+[1562786152.084][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.084][INFO]: RESPONSE GetElementText "Togo"
+[1562786152.085][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-209"
+}
+[1562786152.085][INFO]: Waiting for pending navigations...
+[1562786152.086][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.106][INFO]: Waiting for pending navigations...
+[1562786152.107][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.107][INFO]: RESPONSE GetElementText "Tokelau"
+[1562786152.109][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-210"
+}
+[1562786152.109][INFO]: Waiting for pending navigations...
+[1562786152.110][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.139][INFO]: Waiting for pending navigations...
+[1562786152.140][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.140][INFO]: RESPONSE GetElementText "Tonga"
+[1562786152.142][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-211"
+}
+[1562786152.142][INFO]: Waiting for pending navigations...
+[1562786152.142][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.162][INFO]: Waiting for pending navigations...
+[1562786152.163][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.163][INFO]: RESPONSE GetElementText "Trinidad And Tobago"
+[1562786152.165][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-212"
+}
+[1562786152.165][INFO]: Waiting for pending navigations...
+[1562786152.166][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.185][INFO]: Waiting for pending navigations...
+[1562786152.186][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.186][INFO]: RESPONSE GetElementText "Tunisia"
+[1562786152.188][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-213"
+}
+[1562786152.188][INFO]: Waiting for pending navigations...
+[1562786152.189][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.224][INFO]: Waiting for pending navigations...
+[1562786152.225][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.225][INFO]: RESPONSE GetElementText "Turkey"
+[1562786152.227][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-214"
+}
+[1562786152.227][INFO]: Waiting for pending navigations...
+[1562786152.228][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.262][INFO]: Waiting for pending navigations...
+[1562786152.263][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.263][INFO]: RESPONSE GetElementText "Turkmenistan"
+[1562786152.265][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-215"
+}
+[1562786152.265][INFO]: Waiting for pending navigations...
+[1562786152.266][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.294][INFO]: Waiting for pending navigations...
+[1562786152.298][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.298][INFO]: RESPONSE GetElementText "Turks And Caicos Islands"
+[1562786152.299][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-216"
+}
+[1562786152.299][INFO]: Waiting for pending navigations...
+[1562786152.300][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.321][INFO]: Waiting for pending navigations...
+[1562786152.322][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.322][INFO]: RESPONSE GetElementText "Tuvalu"
+[1562786152.326][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-217"
+}
+[1562786152.326][INFO]: Waiting for pending navigations...
+[1562786152.327][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.356][INFO]: Waiting for pending navigations...
+[1562786152.357][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.357][INFO]: RESPONSE GetElementText "Uganda"
+[1562786152.359][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-218"
+}
+[1562786152.359][INFO]: Waiting for pending navigations...
+[1562786152.360][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.380][INFO]: Waiting for pending navigations...
+[1562786152.381][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.381][INFO]: RESPONSE GetElementText "Ukraine"
+[1562786152.383][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-219"
+}
+[1562786152.383][INFO]: Waiting for pending navigations...
+[1562786152.384][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.404][INFO]: Waiting for pending navigations...
+[1562786152.421][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.421][INFO]: RESPONSE GetElementText "United Arab Emirates"
+[1562786152.424][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-220"
+}
+[1562786152.424][INFO]: Waiting for pending navigations...
+[1562786152.425][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.446][INFO]: Waiting for pending navigations...
+[1562786152.447][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.447][INFO]: RESPONSE GetElementText "United Kingdom"
+[1562786152.448][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-221"
+}
+[1562786152.448][INFO]: Waiting for pending navigations...
+[1562786152.449][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.469][INFO]: Waiting for pending navigations...
+[1562786152.470][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.470][INFO]: RESPONSE GetElementText "United States"
+[1562786152.472][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-222"
+}
+[1562786152.472][INFO]: Waiting for pending navigations...
+[1562786152.473][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.499][INFO]: Waiting for pending navigations...
+[1562786152.500][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.500][INFO]: RESPONSE GetElementText "United States Minor Outlying Islands"
+[1562786152.502][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-223"
+}
+[1562786152.502][INFO]: Waiting for pending navigations...
+[1562786152.503][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.530][INFO]: Waiting for pending navigations...
+[1562786152.531][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.531][INFO]: RESPONSE GetElementText "Uruguay"
+[1562786152.533][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-224"
+}
+[1562786152.533][INFO]: Waiting for pending navigations...
+[1562786152.534][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.566][INFO]: Waiting for pending navigations...
+[1562786152.567][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.567][INFO]: RESPONSE GetElementText "Uzbekistan"
+[1562786152.569][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-225"
+}
+[1562786152.569][INFO]: Waiting for pending navigations...
+[1562786152.570][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.600][INFO]: Waiting for pending navigations...
+[1562786152.602][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.602][INFO]: RESPONSE GetElementText "Vanuatu"
+[1562786152.603][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-226"
+}
+[1562786152.603][INFO]: Waiting for pending navigations...
+[1562786152.604][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.637][INFO]: Waiting for pending navigations...
+[1562786152.641][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.641][INFO]: RESPONSE GetElementText "Vatican City State (Holy See)"
+[1562786152.646][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-227"
+}
+[1562786152.646][INFO]: Waiting for pending navigations...
+[1562786152.647][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.674][INFO]: Waiting for pending navigations...
+[1562786152.675][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.675][INFO]: RESPONSE GetElementText "Venezuela"
+[1562786152.677][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-228"
+}
+[1562786152.677][INFO]: Waiting for pending navigations...
+[1562786152.678][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.722][INFO]: Waiting for pending navigations...
+[1562786152.723][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.723][INFO]: RESPONSE GetElementText "Vietnam"
+[1562786152.725][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-229"
+}
+[1562786152.725][INFO]: Waiting for pending navigations...
+[1562786152.726][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.761][INFO]: Waiting for pending navigations...
+[1562786152.762][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.762][INFO]: RESPONSE GetElementText "Virgin Islands (British)"
+[1562786152.764][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-230"
+}
+[1562786152.764][INFO]: Waiting for pending navigations...
+[1562786152.765][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.785][INFO]: Waiting for pending navigations...
+[1562786152.786][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.786][INFO]: RESPONSE GetElementText "Virgin Islands (US)"
+[1562786152.787][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-231"
+}
+[1562786152.787][INFO]: Waiting for pending navigations...
+[1562786152.788][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.815][INFO]: Waiting for pending navigations...
+[1562786152.815][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.816][INFO]: RESPONSE GetElementText "Wallis And Futuna Islands"
+[1562786152.817][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-232"
+}
+[1562786152.817][INFO]: Waiting for pending navigations...
+[1562786152.818][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.847][INFO]: Waiting for pending navigations...
+[1562786152.848][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.848][INFO]: RESPONSE GetElementText "Western Sahara"
+[1562786152.850][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-233"
+}
+[1562786152.850][INFO]: Waiting for pending navigations...
+[1562786152.851][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.876][INFO]: Waiting for pending navigations...
+[1562786152.877][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.877][INFO]: RESPONSE GetElementText "Yemen"
+[1562786152.878][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-234"
+}
+[1562786152.879][INFO]: Waiting for pending navigations...
+[1562786152.879][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.898][INFO]: Waiting for pending navigations...
+[1562786152.899][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.899][INFO]: RESPONSE GetElementText "Yugoslavia"
+[1562786152.902][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-235"
+}
+[1562786152.902][INFO]: Waiting for pending navigations...
+[1562786152.903][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.924][INFO]: Waiting for pending navigations...
+[1562786152.925][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.925][INFO]: RESPONSE GetElementText "Zambia"
+[1562786152.926][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-236"
+}
+[1562786152.926][INFO]: Waiting for pending navigations...
+[1562786152.927][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.946][INFO]: Waiting for pending navigations...
+[1562786152.947][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.947][INFO]: RESPONSE GetElementText "Zimbabwe"
+[1562786152.949][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-237"
+}
+[1562786152.949][INFO]: Waiting for pending navigations...
+[1562786152.950][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.968][INFO]: Waiting for pending navigations...
+[1562786152.969][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.969][INFO]: RESPONSE GetElementText "Afghanistan"
+[1562786152.971][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-238"
+}
+[1562786152.971][INFO]: Waiting for pending navigations...
+[1562786152.972][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.994][INFO]: Waiting for pending navigations...
+[1562786152.995][INFO]: Done waiting for pending navigations. Status: ok
+[1562786152.995][INFO]: RESPONSE GetElementText "Albania"
+[1562786152.997][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-239"
+}
+[1562786152.997][INFO]: Waiting for pending navigations...
+[1562786152.998][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.019][INFO]: Waiting for pending navigations...
+[1562786153.020][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.020][INFO]: RESPONSE GetElementText "Algeria"
+[1562786153.022][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-240"
+}
+[1562786153.022][INFO]: Waiting for pending navigations...
+[1562786153.023][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.042][INFO]: Waiting for pending navigations...
+[1562786153.043][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.043][INFO]: RESPONSE GetElementText "Gaza Strip"
+[1562786153.044][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-241"
+}
+[1562786153.044][INFO]: Waiting for pending navigations...
+[1562786153.045][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.064][INFO]: Waiting for pending navigations...
+[1562786153.064][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.065][INFO]: RESPONSE GetElementText "United Kingdom"
+[1562786153.066][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-242"
+}
+[1562786153.066][INFO]: Waiting for pending navigations...
+[1562786153.067][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.087][INFO]: Waiting for pending navigations...
+[1562786153.088][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.088][INFO]: RESPONSE GetElementText "Jersey"
+[1562786153.089][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-243"
+}
+[1562786153.090][INFO]: Waiting for pending navigations...
+[1562786153.090][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.125][INFO]: Waiting for pending navigations...
+[1562786153.126][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.126][INFO]: RESPONSE GetElementText "Kosovo"
+[1562786153.128][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-244"
+}
+[1562786153.128][INFO]: Waiting for pending navigations...
+[1562786153.129][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.148][INFO]: Waiting for pending navigations...
+[1562786153.149][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.149][INFO]: RESPONSE GetElementText "Montenegro"
+[1562786153.150][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-245"
+}
+[1562786153.150][INFO]: Waiting for pending navigations...
+[1562786153.151][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.184][INFO]: Waiting for pending navigations...
+[1562786153.185][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.185][INFO]: RESPONSE GetElementText "Saint Barthelemy"
+[1562786153.187][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-246"
+}
+[1562786153.187][INFO]: Waiting for pending navigations...
+[1562786153.188][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.213][INFO]: Waiting for pending navigations...
+[1562786153.214][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.214][INFO]: RESPONSE GetElementText "Saint Martin"
+[1562786153.216][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-247"
+}
+[1562786153.216][INFO]: Waiting for pending navigations...
+[1562786153.217][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.236][INFO]: Waiting for pending navigations...
+[1562786153.237][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.237][INFO]: RESPONSE GetElementText "Serbia"
+[1562786153.239][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-248"
+}
+[1562786153.239][INFO]: Waiting for pending navigations...
+[1562786153.240][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.259][INFO]: Waiting for pending navigations...
+[1562786153.262][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.262][INFO]: RESPONSE GetElementText "Timor-Leste"
+[1562786153.263][INFO]: COMMAND GetElementText {
+   "id": "0.7646827861589167-249"
+}
+[1562786153.263][INFO]: Waiting for pending navigations...
+[1562786153.264][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.283][INFO]: Waiting for pending navigations...
+[1562786153.283][INFO]: Done waiting for pending navigations. Status: ok
+[1562786153.283][INFO]: RESPONSE GetElementText "West Bank"
+[1562786154.780][INFO]: COMMAND Quit {
+
+}
+[1562786154.945][INFO]: RESPONSE Quit

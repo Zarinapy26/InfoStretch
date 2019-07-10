@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-10T19:15:37Z" name="Default suite" finished-at="2019-07-10T19:15:55Z" duration-ms="18089">
+    <groups>
+    </groups>
+    <test started-at="2019-07-10T19:15:37Z" name="Default test" finished-at="2019-07-10T19:15:55Z" duration-ms="18089">
+      <class name="com.infostretch.seleniumfeatures.test.DropDownTest">
+        <test-method signature="dropDown()[pri:0, instance:com.infostretch.seleniumfeatures.test.DropDownTest@5890e879]" started-at="2019-07-10T19:15:37Z" name="dropDown" finished-at="2019-07-10T19:15:54Z" duration-ms="16840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDown -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:com.infostretch.seleniumfeatures.test.DropDownTest@5890e879]" started-at="2019-07-10T19:15:54Z" name="closure" finished-at="2019-07-10T19:15:55Z" duration-ms="1217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- com.infostretch.seleniumfeatures.test.DropDownTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
